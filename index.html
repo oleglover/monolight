@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Классний сайтик</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">logo</a>
+        <ul>
+            <li><a  href="#" class="active">Home</a></li>
+            <li><a  href="#">About</a></li>
+            <li><a  href="#">Work</a></li>
+            <li><a  href="#">Contact</a></li>
+        </ul>
+    </header>
+    <section>
+        <img src="assets/img/stars.png" id="stars" alt="">
+        <img src="assets/img/moon.png" id="moon" alt="">
+        <img src="assets/img/mountains_behind.png" id="mountains_behind" alt="">
+        <h2 id="text">Moon Light</h2>
+        <a href="#news" id="btn">Explore</a>
+        <img src="assets/img/mountains_front.png" id="mountains_front" alt="">
+    </section>
+    <div class="news" id="news">
+        <h2>Bitcoin news</h2>
+        <p>The Blockchain
+            Bitcoin is a network that runs on a protocol known as the blockchain. A 2008 paper by a person or people calling themselves Satoshi Nakamoto first described both the blockchain and Bitcoin, and for a while, the two terms were all but synonymous.
+            The blockchain​ has since evolved into a separate concept, and thousands of blockchains have been created using similar cryptographic techniques. This history can make the nomenclature confusing. Blockchain sometimes refers to the original Bitcoin blockchain. At other times, it refers to blockchain technology in general, or to any other specific blockchain, such as the one that powers Ethereum​.<br></br>The basics of blockchain technology are mercifully straightforward. Any given blockchain consists of a single chain of discrete blocks of information, arranged chronologically. In principle, this information can be any string of 1s and 0s, meaning it could include emails, contracts, land titles, marriage certificates, or bond trades. In theory, any type of contract between two parties can be established on a blockchain as long as both parties agree on the contract. This takes away any need for a third party to be involved in any contract. This opens up a world of possibilities including peer-to-peer financial products, such as loans or decentralized savings and checking accounts, wherein banks or any intermediary is irrelevant.<br><br>Though Bitcoin's current goal is to be a store of value as well as a payment system, there is nothing to say that Bitcoin could not be used in such a way in the future, though consensus would need to be reached to add these systems to Bitcoin. The main goal of the Ethereum project is to have a platform where these "smart contracts" can occur, therefore creating a whole realm of decentralized financial products without any middlemen or the fees and potential data breaches that come along with them.
+
+            This versatility has caught the eye of governments and private corporations; indeed, some analysts believe that blockchain technology will ultimately be the most impactful aspect of the cryptocurrency craze.
+            
+            In Bitcoin's case, though, the information on the blockchain is mostly transactions. 
+            
+            Bitcoin is really just a list. Person A sent X bitcoin to person B, who sent Y bitcoin to person C, etc. By tallying these transactions up, everyone knows where individual users stand. It's important to note that these transactions do not necessarily need to take place between humans.
+            
+            Anything can access and use the Bitcoin network, and your ethnicity, gender, religion, species, or political leaning is completely irrelevant. This creates vast possibilities for the Internet of things. In the future, we could see systems in which self-driving taxis or Uber vehicles have their own blockchain wallets. The passenger would send cryptocurrency directly to the car, which would not move until the funds were received. The vehicle would be able to assess when it needs fuel and use its wallet to facilitate a refill.<br></br>Another name for a blockchain is a "distributed ledger," which emphasizes the key difference between this technology and a well-kept Word document. Bitcoin's blockchain is distributed, meaning that it is public. Anyone can download it in its entirety or go to any number of sites that parse it. This means that the record is publicly available, but it also means that there are complicated measures in place for updating the blockchain ledger. There is no central authority to keep tabs on all Bitcoin transactions, so the participants themselves do so by creating and verifying "blocks" of transaction data. See the section on mining below for more information.
+
+            You can see, for example, that 15N3yGu3UFHeyUNdzQ5sS3aRFRzu5Ae7EZ sent 0.01718427 bitcoin to 1JHG2qjdk5Khiq7X5xQrr1wfigepJEK3t on Aug. 14, 2017, between 11:10 and 11:20 a.m. The long strings of numbers and letters are addresses, and if you were in law enforcement or just very well informed, you could probably figure out who controlled them. It is a misconception that Bitcoin's network is totally anonymous, although taking certain precautions can make it very hard to link individuals to transactions.<br><br>How to Buy Bitcoin
+            Post-Trust
+            Despite being absolutely public, or rather because of that fact, Bitcoin is extremely resistant to tampering. A bitcoin has no physical presence, so you can't protect it by locking it in a safe or burying it in the woods.
+            
+            In theory, all a thief would need to do to take it from you would be to add a line to the ledger that translates to "you paid me everything you have."
+            
+            A related worry is double-spending. If a bad actor could spend some bitcoin, then spend it again, confidence in the currency's value would quickly evaporate. To achieve a double-spend, the bad actor would need to make up 51% of the mining power of Bitcoin. The larger the Bitcoin network grows, the less realistic this becomes as the computing power required would be astronomical and extremely expensive.
+            
+            To further prevent either from happening, you need trust. In this case, the accustomed solution with traditional currency would be to transact through a central, neutral arbiter such as a bank. Bitcoin has made that unnecessary, however. (It is probably no coincidence that Nakamoto's original description was published in October 2008, when trust in banks was at a multigenerational low. This is a recurring theme in today's climate of the coronavirus pandemic and growing government debt.) Rather than having a reliable authority keep the ledger and preside over the network, the Bitcoin network is decentralized. Everyone keeps an eye on everyone else.No one needs to know or trust anyone in particular in order for the system to operate correctly. Assuming everything is working as intended, the cryptographic protocols ensure that each block of transactions is bolted onto the last in a long, transparent, and immutable chain. <br></br>Mining
+            The process that maintains this trustless public ledger is known as mining. Undergirding the network of Bitcoin users who trade the cryptocurrency among themselves is a network of miners, who record these transactions on the blockchain. 
+            
+            Recording a string of transactions is trivial for a modern computer, but mining is difficult because Bitcoin's software makes the process artificially time-consuming. Without the added difficulty, people could spoof transactions to enrich themselves or bankrupt other people. They could log a fraudulent transaction in the blockchain and pile so many trivial transactions on top of it that untangling the fraud would become impossible.
+            
+            By the same token, it would be easy to insert fraudulent transactions into past blocks. The network would become a sprawling, spammy mess of competing ledgers, and Bitcoin would be worthless.
+            
+            Combining "proof of work" with other cryptographic techniques was Nakamoto's breakthrough. Bitcoin's software adjusts the difficulty miners face in order to limit the network to a new 1-megabyte block of transactions every 10 minutes. That way, the volume of transactions is digestible. The network has time to vet the new block and the ledger that precedes it, and everyone can reach a consensus about the status quo. Miners do not work to verify transactions by adding blocks to the distributed ledger purely out of a desire to see the Bitcoin network run smoothly; they are compensated for their work as well. We'll take a closer look at mining compensation below.<br></br>Halving
+            As previously mentioned, miners are rewarded with Bitcoin for verifying blocks of transactions. This reward is cut in half every 210,000 blocks mined, or, about every four years. This event is called the halving or "the halvening." The system is built in as a deflationary one for the rate at which new Bitcoin is released into circulation.
+            
+            This process is designed so that rewards for Bitcoin mining will continue until about 2140. When all Bitcoin is mined from the code and all halvings are finished, the miners will remain incentivized by fees that they will charge network users. The hope is that healthy competition will keep fees low.
+            
+            This system drives up Bitcoin's stock-to-flow ratio and lowers its inflation until it is eventually zero. After the third halving that took place on May 11, 2020, the reward for each block mined became 6.25 bitcoins.<br></br>
+            <img src="assets/img/bitcoin.jpg" alt=""> Halving
+            As previously mentioned, miners are rewarded with Bitcoin for verifying blocks of transactions. This reward is cut in half every 210,000 blocks mined, or, about every four years. This event is called the halving or "the halvening." The system is built in as a deflationary one for the rate at which new Bitcoin is released into circulation.
+            
+            This process is designed so that rewards for Bitcoin mining will continue until about 2140. When all Bitcoin is mined from the code and all halvings are finished, the miners will remain incentivized by fees that they will charge network users. The hope is that healthy competition will keep fees low.
+            
+            This system drives up Bitcoin's stock-to-flow ratio and lowers its inflation until it is eventually zero. After the third halving that took place on May 11, 2020, the reward for each block mined became 6.25 bitcoins.<br></br>Hashes
+            Here is a slightly more technical description of how mining works. The network of miners, who are scattered across the globe and not bound to each other by personal or professional ties, receives the latest batch of transaction data. They run the data through a cryptographic algorithm that generates a "hash," a string of numbers and letters that verifies the information's validity but does not reveal the information itself. (In reality, this ideal vision of decentralized mining is no longer accurate, with industrial-scale mining farms and powerful mining pools forming an oligopoly. More on that below.)
+            
+            Given the hash 000000000000000000c2c4d562265f272bd55d64f1a7c22ffeb66e15e826ca30, you cannot know what transactions the relevant block (#480504) contains. You can, however, take a bunch of data purporting to be block #480504 and make sure that it hasn't been subject to any tampering. If one number were out of place, no matter how insignificant, the data would generate a totally different hash. For example, if you were to run the Declaration of Independence through a hash calculator, you might get 839f561caa4b466c84e2b4809afe116c76a465ce5da68c3370f5c36bd3f67350. Delete the period after the words "submitted to a candid world," though, and you get 800790e4fd445ca4c5e3092f9884cdcd4cf536f735ca958b93f60f82f23f97c4. This is a completely different hash, although you've only changed one character in the original text.
+            
+            The hash technology allows the Bitcoin network to instantly check the validity of a block. It would be incredibly time-consuming to comb through the entire ledger to make sure that the person mining the most recent batch of transactions hasn't tried anything funny. Instead, the previous block's hash appears within the new block. If the most minute detail had been altered in the previous block, that hash would change. Even if the alteration was 20,000 blocks back in the chain, that block's hash would set off a cascade of new hashes and tip off the network.  
+            
+            Generating a hash is not really work, though. The process is so quick and easy that bad actors could still spam the network and perhaps, given enough computing power, pass off fraudulent transactions a few blocks back in the chain. So the Bitcoin protocol requires proof of work.
+            
+            It does so by throwing miners a curveball: Their hash must be below a certain target. That's why block #480504's hash starts with a long string of zeroes. It's tiny. Because every string of data will generate one and only one hash, the quest for a sufficiently small one involves adding nonces ("numbers used once") to the end of the data. So a miner will run [thedata]. If the hash is too big, she will try again. [thedata]1. Still too big. [thedata]2. Finally, [thedata]93452 yields her a hash beginning with the requisite number of zeroes.
+            
+            The mined block will be broadcast to the network to receive confirmations, which take another hour or so, though occasionally much longer, to process. (Again, this description is simplified. Blocks are not hashed in their entirety but broken up into more efficient structures called Merkle trees.)
+            
+             </p>
+            
+    </div>
+    <script src="assets/js/script.js"></script>
+    
+</body>
+</html>
